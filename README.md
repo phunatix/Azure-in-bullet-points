@@ -1,10 +1,7 @@
-# Azure in bulletpoints
+# Azure in bulletpoints (phunatix's version)
 
 - This repo contains my study notes for different Azure exams.
 - The notes are comprehensive and written with goal of covering all exam areas.
-  - I passed all of the exams with these notes.
-- Good luck & enjoy studying! ☕
-- ✨ Contributions of any kind are welcome!
 
 ## Symbols
 
@@ -13,29 +10,30 @@
     | Symbol | Description |
     |:------:|-------------|
     | 💡 | Best practice or special hint for exam |
-    | ❗ | An important limitation, challange or an exception |
+    | ❗ | An important limitation, challenge or an exception |
 
 ## Content
 
-- [Azure in bulletpoints](#azure-in-bulletpoints)
+- [Azure in bulletpoints (phunatix's version)](#azure-in-bulletpoints-phunatixs-version)
   - [Symbols](#symbols)
   - [Content](#content)
-    - [AZ-103: Microsoft Azure Administrator](#az-103-microsoft-azure-administrator)
+    - [AZ-104: Microsoft Azure Administrator](#az-104-microsoft-azure-administrator)
     - [AZ-300: Microsoft Azure Architect Technologies](#az-300-microsoft-azure-architect-technologies)
     - [AZ-301: Microsoft Azure Architect Design](#az-301-microsoft-azure-architect-design)
+  - [Maintainers](#maintainers)
 
-### [AZ-103](https://www.microsoft.com/en-us/learning/exam-az-103.aspx): Microsoft Azure Administrator
+### [AZ-104](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104): Microsoft Azure Administrator
 
 1. Management
    1. [Azure Cloud Shell](AZ-103%20Microsoft%20Azure%20Administrator/1.1.%20Management%20-%20Azure%20Cloud%20Shell.md)
    2. [Resources & Costs](AZ-103%20Microsoft%20Azure%20Administrator/1.2.%20Management%20-%20Resources%20&%20Costs.md)
    3. [Resource Groups](AZ-103%20Microsoft%20Azure%20Administrator/1.3.%20Management%20-%20Resource%20Groups.md)
-2. Governence
-   1. [Roles](AZ-103%20Microsoft%20Azure%20Administrator/2.1.%20Governence%20-%20Roles.md)
-   2. [Azure AD](AZ-103%20Microsoft%20Azure%20Administrator/2.2.%20Governence%20-%20Azure%20AD.md)
-      1. [Entities](AZ-103%20Microsoft%20Azure%20Administrator/2.2.1.%20Governence%20-%20Azure%20AD%20-%20Entities.md)
-      2. [Hybrid identities](AZ-103%20Microsoft%20Azure%20Administrator/2.2.2.%20Governence%20-%20Azure%20AD%20-%20Hybrid%20Identities.md)
-   3. [Azure Policies](AZ-103%20Microsoft%20Azure%20Administrator/2.3.%20Governence%20-%20Azure%20Policies.md)
+2. Governance
+   1. [Roles](AZ-103%20Microsoft%20Azure%20Administrator/2.1.%20Governance%20-%20Roles.md)
+   2. [Azure AD](AZ-103%20Microsoft%20Azure%20Administrator/2.2.%20Governance%20-%20Azure%20AD.md)
+      1. [Entities](AZ-103%20Microsoft%20Azure%20Administrator/2.2.1.%20Governance%20-%20Azure%20AD%20-%20Entities.md)
+      2. [Hybrid identities](AZ-103%20Microsoft%20Azure%20Administrator/2.2.2.%20Governance%20-%20Azure%20AD%20-%20Hybrid%20Identities.md)
+   3. [Azure Policies](AZ-103%20Microsoft%20Azure%20Administrator/2.3.%20Governance%20-%20Azure%20Policies.md)
 3. [Monitoring](AZ-103%20Microsoft%20Azure%20Administrator/3.%20Monitoring.md)
 4. Storage
    1. [Azure Storage](AZ-103%20Microsoft%20Azure%20Administrator/4.1.%20Storage%20-%20Azure%20Storage.md)
@@ -49,11 +47,25 @@
    3. [VM Scale Sets (VMMS)](AZ-103%20Microsoft%20Azure%20Administrator/5.3%20Compute%20-%20Virtual%20machines%20(VMs)%20-%20VM%20Scale%20Sets%20(VMMS).md)
    4. [Security](AZ-103%20Microsoft%20Azure%20Administrator/5.4.%20Compute%20-%20Virtual%20machines%20(VMs)%20-%20Security.md)
    5. [Backups](AZ-103%20Microsoft%20Azure%20Administrator/5.5.%20Compute%20-%20Virtual%20machines%20(VMs)%20-%20Backups.md)
-6. Networking
+6. Compute - Containers
+   1. Basic Concepts on Docker and Kubernetes
+   2. Azure Container Instance (ACI)
+   3. Azure Container Repository (ACR)
+   4. Azure Kubernetes Cluster (AKS)
+7. Compute - Serverless
+   1. App Service
+   2. Azure Functions
+8. Networking
    1. [Virtual Network (VNet)](AZ-103%20Microsoft%20Azure%20Administrator/6.1.%20Networking%20-%20Virtual%20Network%20(VNet).md)
       1. [Connecting VNets](AZ-103%20Microsoft%20Azure%20Administrator/6.1.1.%20Networking%20-%20Virtual%20Network%20(VNet)%20-%20Connecting%20VNets.md)
       2. [DNS & Name Resolution](AZ-103%20Microsoft%20Azure%20Administrator/6.1.2.%20Networking%20-%20Virtual%20Network%20(VNet)%20-%20DNS%20&%20Name%20Resolution.md)
+      3. Troubleshooting
    2. [Load Balancers](AZ-103%20Microsoft%20Azure%20Administrator/6.2.%20Networking%20-%20Load%20Balancers.md)
+   3. Hybrid networking
+9. Monitoring and Backup of Azure Resources
+   1.  Monitoring resources through Azure Monitor
+   2.  Implementation of backup and recovery
+
 
 [↑](#content)
 
@@ -77,3 +89,9 @@
 4. [Designing an Infrastructure Strategy](AZ-301%20Microsoft%20Azure%20Architect%20Design/4.%20Designing%20an%20Infrastructure%20Strategy.md)
 
 [↑](#content)
+
+
+## Maintainers
+
+- [phunatix](https://phunatix.github.io/) maintains this repo to extend this to AZ-104
+- [undergroundwires](https://github.com/undergroundwires/Azure-in-bullet-points) was kindly forked 
